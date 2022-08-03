@@ -10,10 +10,11 @@ import os
 yellow='\033[92m'
 cyan='\033[92m'
 pink='\033[92m'
-green = '\033[92m'
+green ='\033[92m'
 red ='\033[92m'
 white ='\033[92m'
 black ='\033[92m'
+blue ='\033[92m'
 # Requests
 
 os.system("clear")
