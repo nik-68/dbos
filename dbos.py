@@ -22,7 +22,7 @@ time.sleep(1.5)
 os.system("clear")
 
 print("=============")
-print("=🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼=")
+print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
 print("=DDos script=")
 ip = str(input(" IP ════> "))
 port = int(input(" Port ════> "))
