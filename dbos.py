@@ -1,4 +1,5 @@
 #by Mamank Sa-mp
+import colorama
 import random
 import time
 import socket
@@ -40,6 +41,7 @@ print ("[===============     ] 75%")
 time.sleep(2)
 print ("[====================] 100%")
 time.sleep(2)
+os.system("clear")
 def run():
   data = random._urandom(1024)
   i = random.choice(("[*]","[!]","[#]"))
