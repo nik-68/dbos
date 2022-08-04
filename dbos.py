@@ -26,7 +26,7 @@ os.system("clear")
 
 print("=============")
 print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
-print("=DDos script=")
+print("=DDos script=")\n")
 ip = str(input(" IP ════> "))
 port = int(input(" Port ════> "))
 choice = str(input(" Lanjut gak?(y/n) ════> "))
