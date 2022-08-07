@@ -20,7 +20,7 @@ White="\[\033[0;37m\]"        # White
 
 # Requests
 os.system("clear")
-print(White + f("З А Г Р У З К А....\n"))
+print("З А Г Р У З К А....")
 time.sleep(2.5)
 os.system("clear")
 
