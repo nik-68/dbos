@@ -26,7 +26,7 @@ os.system("clear")
 
 print("==============")
 print(" 🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼 ")
-print("=Mastter DDos=")\n")
+print(f"=Mastter DDos=\n")
 
 ip = str(input(" IP ══> "))
 port = int(input(" Port ══> "))
