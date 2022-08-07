@@ -20,7 +20,7 @@ White="\[\033[0;37m\]"        # White
 
 # Requests
 os.system("clear")
-print(White + "....З А Г Р У З К А....")
+print(White + f"....З А Г Р У З К А....\n")
 time.sleep(2.5)
 os.system("clear")
 
@@ -28,10 +28,10 @@ print("==============")
 print(" 🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼 ")
 print(f"=Mastter DDos=\n")
 
-ip = str(input(" IP ══> "))
-port = int(input(" Port ══> "))
-choice = str(input(" Lanjut gak?(y/n) ══> "))
-times = int(input(" Packets time ══> "))
+ip = str(input(" ЦЕЛЬ IP ═> "))
+port = int(input(" Port ═> "))
+choice = str(input(" Lanjut gak?(y/n) ═> "))
+times = int(input(" Packets time ═> "))
 threads = int(input(" Потоки (~800 лучше) ══> "))
 
 os.system("clear")
