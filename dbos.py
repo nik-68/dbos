@@ -26,8 +26,8 @@ os.system("clear")
 
 print("=============")
 print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
-print("=Mastter DDos=")\n")
-
+print("=Mastter DDos=")
+#
 ip = str(input(" IP ══> "))
 port = int(input(" Port ══> "))
 choice = str(input(" Lanjut gak?(y/n) ══> "))
