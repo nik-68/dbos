@@ -20,13 +20,13 @@ White="\[\033[0;37m\]"        # White
 
 # Requests
 os.system("clear")
-print(Blue + f"З А Г Р У З К А....")
-time.sleep(1.5)
+print(White + f"З А Г Р У З К А....")
+time.sleep(2.5)
 os.system("clear")
 
 print("=============")
 print("🅳🅴🅳🅲🅾🅳🅴 🆃🅴🅰🅼")
-print("=DDos script=")\n")
+print("= Mastter DDos =")\n")
 ip = str(input(" IP ════> "))
 port = int(input(" Port ════> "))
 choice = str(input(" Lanjut gak?(y/n) ════> "))
